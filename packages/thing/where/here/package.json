@@ -1,0 +1,6 @@
+{
+  "name": "thing.where.here",
+  "dependencies": {
+    "flow-bin": "*"
+  }
+}
