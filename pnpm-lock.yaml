@@ -1,19 +1,23 @@
-importers:
-  .:
-    specifiers: {}
-  packages/thing/where/here:
-    dependencies:
-      flow-bin: 0.148.0
-    specifiers:
-      flow-bin: '*'
-lockfileVersion: 5.2
+lockfileVersion: 5.3
+
 overrides:
   flow-bin: 0.138.0
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/thing/where/here:
+    specifiers:
+      flow-bin: 0.138.0
+    dependencies:
+      flow-bin: 0.138.0
+
 packages:
-  /flow-bin/0.148.0:
-    dev: false
-    engines:
-      node: '>=0.10.0'
+
+  /flow-bin/0.138.0:
+    resolution: {integrity: sha512-y3twwNeN0FWEK0vvJo/5SiC/OQVlhubGRyOPIS6p49b2yiiWE/cBFG/aC9kFXFfh7Orewe5O5B2X0+IiEOCYIw==}
+    engines: {node: '>=0.10.0'}
     hasBin: true
-    resolution:
-      integrity: sha512-7Cx6BUm8UAlbqtYJNYXdMrh900MQhNV+SjtBxZuWN7UmlVG4tIRNzNLEOjNnj2DN2vcL1wfI5IlSUXnws/QCEw==
+    dev: false
